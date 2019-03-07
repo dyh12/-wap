@@ -1,0 +1,52 @@
+#bgc{
+    background: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+section p:nth-child(1){
+      height: 35px;
+      line-height: 40px;
+      font-size: 16px;
+
+  }
+section p:nth-child(2){
+    height: auto;
+    line-height: 33px;
+    font-size: 23px;
+    margin-top: 30px;
+    width: 100%;
+    word-wrap:break-word
+}
+section p:nth-child(3){
+    height: 60px;
+    line-height: 33px;
+    font-size: 16px;
+    margin-top: 30px;
+    word-wrap:break-word
+}
+#bgc span{
+    display: block;
+}
+#bgc span:nth-child(1){
+    float: left;
+}
+#bgc .wybm{
+    float: right;
+    background:#02b3dd ;
+    padding: 0 5px;
+    color: white;
+}
+#bgc span:nth-child(2) a{
+
+    color: white;
+}
+#bgc p a{
+    color: #555555;
+}
+.con{
+    height: auto;
+    width: auto;
+    background: #eaeaea;
+    padding: 15px;
+    font-size: 18px;
+}

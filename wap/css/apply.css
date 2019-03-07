@@ -1,0 +1,29 @@
+#bgc .xz{
+    font-size: 20px;
+    height: auto;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+.zt{
+    font-size: 15px;
+}
+.form{
+    height: 100px;
+    line-height: 100px;
+}
+.form p{
+    float: left;
+    margin-right: 50px;
+}
+#btn1{
+    display: block;
+    height: 30px;
+    width: auto;
+    background: #02b3dd;
+    color: white;
+    padding: 0 10px;
+}

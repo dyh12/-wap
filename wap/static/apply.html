@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学会帮手机站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/news.css">
+    <link rel="stylesheet" href="../css/apply.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="head clearfix">
+            <span><a href="../index.html"><img src="../images/index_logo.png" alt="logo"></a></span>
+            <span id="btn"><span class="iconfont nav_show">&#xe793;</span></span>
+        </div>
+        <div class="nav">
+            <hr>
+            <ul>
+                <li><a href="#">登录</a></li>
+                <li><a href="login.html">注册</a></li>
+                <li><a href="#">学联体</a></li>
+                <li><a href="#">会员桥</a></li>
+                <li><a href="#">专家牛</a></li>
+                <li><a href="#">创新吧</a></li>
+                <li><a href="#">创业园</a></li>
+                <li><a href="#">投融汇</a></li>
+                <li><a href="#">竞技场</a></li>
+                <li><a href="#">实训坊</a></li>
+                <li><a href="#">个人中心</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="top"></div>
+<section id="bgc">
+    <p><a href="../index.html">首页</a>><a href="news_detail.html">学会通知</a>>我要报名</p>
+    <p>报名须知</p>
+    <div class="xz">
+        必须携带身份证入场 <br />
+        必须携带身份证入场 <br />
+        必须携带身份证入场 <br />
+        必须携带身份证入场 <br />
+    </div>
+    <div class="form">
+        <form action="" method="post">
+            <p><input type="checkbox"/>&nbsp;已阅读报名须知</p>
+            <input id="btn1" type="button" value="请阅读5秒" disabled="disabled" />
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="footer clearfix">
+        <span>友情链接</span>
+        <ul>
+            <li><a href="#">浙江省经济和信息化委员会</a></li>
+            <li><a href="#">浙江省软件行业协会</a></li>
+            <li><a href="#">杭州市科学技术协会</a></li>
+            <li><a href="#">杭州市自动化学会</a></li>
+            <li><a href="#">杭州市计算机学会</a></li>
+            <li><a href="#">建设单位：杭州数字经济联合会</a></li>
+            <li><a href="#">技术支持单位：杭州名流企业管理咨询有限公司</a></li>
+            <li><a href="#">浙江工业大学计算机学院等</a></li>
+        </ul>
+        <hr />
+        <p>Copyright 2017-2018 All Rights reserved 版权所有</p>
+        <p>联系电话：0571-88198179</p>
+    </div>
+</footer>
+<script src="../js/jquery-1.12.4.js"></script>
+<script>
+    $(function () {
+        $("#btn").click(function () {
+            $(".nav").slideToggle(300);
+            $(".iconfont").toggleClass("red");
+        })
+
+    });
+
+    var num = 4;
+    //设置定时器
+    var txtnum = setInterval(function () {
+        $("#btn1").val("请阅读" + num + "秒");
+        if (num == 0) {
+            $("#btn1").val("确定报名").attr("disabled", false);
+            clearInterval(txtnum);
+        }
+        num--;
+    },1000);
+</script>
+</body>
+</html>

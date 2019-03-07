@@ -1,0 +1,171 @@
+
+/***---header---***********/
+/*icon*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url("../font/iconfont.eot?#iefix") format('embedded-opentype'),
+    url('../font/iconfont.woff2') format('woff2'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 15px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #555555;
+}
+.nav_show{
+    font-size: 30px;
+}
+
+.red{
+    color: #02b3dd;
+}
+.head{
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    background: white;
+    box-shadow: 0 7px 7px #dddddd;
+    position: fixed;
+    top: 0;
+    z-index: max;
+}
+.head span:nth-child(1){
+    height: 60px;
+    width: 100px;
+    display: block;
+    float: left;
+    margin-left: 15px;
+}
+
+.head span:nth-child(2){
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.nav{
+    background: white;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    display: none;
+}
+.nav hr{
+    color: #dddddd;
+}
+.nav ul{
+    padding: 0 20px;
+}
+.nav ul li{
+    height: 30px;
+    line-height: 30px;
+}
+/****---section---***********/
+.top{
+    margin-top: 88px;
+}
+/*xhtz*/
+
+.xhtz{
+    height: 40px;
+    width: 100%;
+    background: #02b3dd;
+    color: white;
+}
+.xhtz p{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 15px;
+    font-size: 15px;
+    width: 100px;
+    float: left;
+}
+.xhtz span{
+    display: block;
+    width: 50px;
+    text-align: center;
+    float: right;
+    line-height: 45px;
+    margin-right: 10px;
+}
+.xhtz_nr{
+    height: auto;
+    width: 100%;
+    background: #ffffff;
+    color: #555555;
+}
+.xhtz_nr ul{
+    padding: 10px 17px;
+}
+.xhtz_nr ul li{
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.xhtz_nr ul li a{
+    color: #555555;
+}
+.li_r{
+
+    margin-right: 5px;
+}
+/*****footer********/
+.footer{
+    height: auto;
+    width: 100%;
+    background: #555555;
+    padding-bottom: 13px;
+    color: #dddddd;
+}
+.footer span{
+    font-size: 15px;
+    margin-left: 15px;
+    height: 30px;
+    display: block;
+    line-height: 40px;
+}
+.footer a{
+    color: #dddddd;
+}
+.footer ul{
+    padding: 20px;
+}
+.footer ul li{
+    float: left;
+    line-height: 20px;
+    height: 27px;
+    padding-right: 20px;
+
+}
+.footer hr{
+     width: 100%;
+ }
+.footer p{
+    float: left;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
