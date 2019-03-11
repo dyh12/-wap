@@ -33,7 +33,6 @@
     box-shadow: 0 7px 7px #dddddd;
     position: fixed;
     top: 0;
-    z-index: max;
 }
 .head span:nth-child(1){
     height: 60px;
@@ -95,6 +94,9 @@
     float: right;
     line-height: 45px;
     margin-right: 10px;
+}
+.xhtz span a{
+    color: white;
 }
 .xhtz_nr{
     height: auto;

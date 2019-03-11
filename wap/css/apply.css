@@ -27,3 +27,17 @@ input[type="checkbox"]{
     color: white;
     padding: 0 10px;
 }
+.more_list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.more_list li{
+    margin-left: 15px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}

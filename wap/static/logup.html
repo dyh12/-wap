@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../css/apply.css">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
 <header>
@@ -35,18 +36,18 @@
     </nav>
 </header>
 <div class="top"></div>
-<section id="bgc">
-    <p><a href="../index.html">首页</a>><a href="news_detail.html">学会通知</a>>我要报名</p>
-    <p>报名通知</p>
-    <div class="xz">
-        <label for="第一场"><input type="checkbox" value="one" id="第一场">第一场上午10:20</label><br>
-        <label for="第二场"><input type="checkbox" value="one" id="第二场">第二场下午午1:20</label><br>
-        <label for="第三场"><input type="checkbox" value="one" id="第三场">第三场上午3:20</label><br>
-        <label for="第四场"><input type="checkbox" value="one" id="第四场">第四场晚上19:20</label><br>
-    </div>
-    <div class="form">
+<div id="bgc"><p><a href="../index.html">首页</a>>登录</p></div>
+<div class="dlzc">登录</div>
+<section>
+    <div class="login">
         <form action="" method="post">
-            <input id="btn1" type="button" value="确定报名" disabled="disabled" />
+            <div>
+                <label for="username">用户名&nbsp;<input type="text" id="username" name="name"></label>
+            </div>
+            <div>
+                <label for="password">密&nbsp;&nbsp;&nbsp;码&nbsp;<input type="password" id="password" name="name"></label>
+            </div>
+            <button class="anniu" value="登录">登录</button>
         </form>
     </div>
 </section>
